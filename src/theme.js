@@ -7,8 +7,8 @@ const basePalette = {
     secondary: {
         main: "#ed8936", // Warm orange
     },
-    custom: {
-        accent: "#38b2ac", // Teal accent
+    accent: {
+        main: "#38b2ac", // Teal accent
     },
 };
 

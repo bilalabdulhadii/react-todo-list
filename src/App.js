@@ -9,6 +9,7 @@ import Box from "@mui/material/Box";
 import { CssBaseline } from "@mui/material";
 import { ToastProvider } from "./contexts/ToastContext.js";
 import { TodosProvider } from "./contexts/TodosContext.js";
+import Footer from "./components/Footer.js";
 
 function App() {
     const [darkMode, setDarkMode] = useState(() => {
@@ -46,6 +47,7 @@ function App() {
                                 <TodoList />
                             </Container>
                         </div>
+                        <Footer />
                     </Box>
                 </ToastProvider>
             </TodosProvider>

@@ -62,7 +62,7 @@ export default function Navbar({ setThemeMode }) {
                         <IconButton
                             size="large"
                             aria-label="show 17 new notifications"
-                            color="inherit"
+                            color="secondary"
                             onClick={() =>
                                 setThemeMode(theme.palette.mode !== "dark")
                             }
