@@ -1,5 +1,4 @@
 import { useTheme } from "@emotion/react";
-import NotificationsIcon from "@mui/icons-material/Notifications";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Logo from "../assets/logo.png";
@@ -9,7 +8,6 @@ import {
     Typography,
     Box,
     IconButton,
-    Badge,
     Avatar,
 } from "@mui/material";
 
@@ -61,15 +59,6 @@ export default function Navbar({ setThemeMode }) {
                     </Box>
                     <Box sx={{ flexGrow: 1 }} />
                     <Box>
-                        <IconButton
-                            size="large"
-                            aria-label="show 17 new notifications"
-                            color="inherit"
-                        >
-                            <Badge badgeContent={5} color="error">
-                                <NotificationsIcon />
-                            </Badge>
-                        </IconButton>
                         <IconButton
                             size="large"
                             aria-label="show 17 new notifications"
