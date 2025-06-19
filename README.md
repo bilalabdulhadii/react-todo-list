@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# React Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Todo List is a simple and elegant task management web application built using **React** and **Material UI (MUI)**. It helps users stay productive by allowing them to create, update, mark, and delete tasks—all with a polished and responsive UI.
 
-## Available Scripts
+<p align="center">
+  <a href="https://www.linkedin.com/in/bilalabdulhadii/"><img src="https://img.shields.io/badge/Chat-Let's%20chat-darkseagreen?labelColor=gray&style=flat" alt="Chat" /></a>
+  <a href="https://www.buymeacoffee.com/bilalabdulhadii"><img src="https://img.shields.io/badge/Donate%20$-Buy%20me%20a%20coffee-darkkhaki?labelColor=gray&style=flat" alt="Donate $" /></a>
+  <a href="https://github.com/bilalabdulhadii"><img src="https://img.shields.io/badge/Coding-Work%20Together-cornflowerblue?labelColor=gray&style=flat" alt="Coding" /></a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#features">Features</a> •
+  <a href="#technologies-used">Technologies</a> •
+  <a href="#how-to-run">How to Run</a> •
+  <a href="#email-me">Email Me</a> •
+  <a href="#about-me">About Me</a> •
+  <a href="#support">Support</a>
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This Todo List app was created to explore the power of React's hooks, state management with `useReducer`, and localStorage. It's lightweight, fast, and focuses on productivity without distractions.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Add new tasks with titles and optional descriptions  
+- Mark tasks as completed or not completed  
+- Update existing tasks  
+- Delete tasks with confirmation dialog  
+- Filter tasks by **All**, **Active**, or **Completed**  
+- Toggle **dark/light theme**  
+- Persist data with `localStorage`  
+- Toast messages for user feedback  
+- Fully responsive design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React**
+- **Material UI (MUI)**
+- **Context API + useReducer**
+- **LocalStorage**
+- **Create React App** (adjust based on your setup)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
+<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" width="40" height="40"/></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Email me
 
-## Learn More
+If you liked using this project, or it has helped you in any way, I'd like you email me at <b><a href="bilalabdulhadi88@gmail.com">bilalabdulhadi88@gmail.com</a></b> about anything you'd want to say about this software. I'd really appreciate it!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
+## About me
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#Crafting Unique Digital Experiences.
 
-### Code Splitting
+#Let's keep it simple and effective.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p><a href="https://www.buymeacoffee.com/bilalabdulhadii"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="https://www.buymeacoffee.com/bilalabdulhadii" /></a></p><br><br>
 
-### Making a Progressive Web App
+---
+> WebSite [@bilalabdulhadi.com](https://bilalabdulhadi.com/) &nbsp;&middot;&nbsp;
+> GitHub [@bilalabdulhadii](https://github.com/bilalabdulhadii) &nbsp;&middot;&nbsp;
+> Linkedin [@bilalabdulhadii](https://www.linkedin.com/in/bilalabdulhadii/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How to Run
 
-### Deployment
+```bash
+# Clone the repository
+git clone https://github.com/your-username/react-todo-list.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Navigate to the project directory
+cd react-todo-list
 
-### `npm run build` fails to minify
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Run the development server
+npm start
