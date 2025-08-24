@@ -89,7 +89,7 @@ If you liked using this project, or it has helped you in any way, I'd like you e
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/react-todo-list.git
+git clone https://github.com/bilalabdulhadii/react-todo-list.git
 
 # Navigate to the project directory
 cd react-todo-list
