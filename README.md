@@ -1,6 +1,6 @@
-# Todo List App (React + MUI)
+# React Todo List App
 
-A clean, responsive todo app built with React and Material UI. Create tasks, update details, mark them complete, and keep everything saved in `localStorage` with a light/dark theme toggle.
+A modern, responsive todo app built with React and Material UI. Create tasks, edit details, mark them complete, and keep everything saved in `localStorage` with a light/dark theme toggle.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/bilalabdulhadii/"><img src="https://img.shields.io/badge/Chat-Let's%20chat-darkseagreen?labelColor=gray&style=flat" alt="Chat" /></a>
@@ -21,15 +21,15 @@ A clean, responsive todo app built with React and Material UI. Create tasks, upd
 
 ## Features
 
-- Add tasks with a title (description can be added later)
-- Update task title and description
-- Delete tasks with a confirmation dialog
-- Mark tasks completed or active
+- Add tasks with a title (description can be added/edited)
+- Update task title and description via a modern dialog
+- Delete tasks with confirmation
+- Mark tasks complete or active
 - Filter by All, Active, or Completed
 - Light and dark theme toggle
-- Toast notifications for key actions
+- Toast notifications for actions
 - Persistent storage via `localStorage`
-- Responsive layout and accessible MUI components
+- Responsive layout with MUI components
 
 ---
 
@@ -38,6 +38,7 @@ A clean, responsive todo app built with React and Material UI. Create tasks, upd
 - React 19
 - Material UI (MUI) + Emotion
 - Context API + `useReducer`
+- `uuid` for task IDs
 - `localStorage` persistence
 - Create React App (`react-scripts`)
 
@@ -54,6 +55,7 @@ src/
   App.js             App shell and providers
 public/
   manifest.json      PWA metadata
+  logo*.png/svg      App icons
 ```
 
 ---
