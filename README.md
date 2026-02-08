@@ -1,101 +1,93 @@
-# React Todo List App
+# Todo List App (React + MUI)
 
-React Todo List is a simple and elegant task management web application built using **React** and **Material UI (MUI)**. It helps users stay productive by allowing them to create, update, mark, and delete tasks—all with a polished and responsive UI.
+A clean, responsive todo app built with React and Material UI. Create tasks, update details, mark them complete, and keep everything saved in `localStorage` with a light/dark theme toggle.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/bilalabdulhadii/"><img src="https://img.shields.io/badge/Chat-Let's%20chat-darkseagreen?labelColor=gray&style=flat" alt="Chat" /></a>
-  <a href="https://www.buymeacoffee.com/bilalabdulhadii"><img src="https://img.shields.io/badge/Donate%20$-Buy%20me%20a%20coffee-darkkhaki?labelColor=gray&style=flat" alt="Donate $" /></a>
+  <a href="https://www.buymeacoffee.com/bilalabdulhadii"><img src="https://img.shields.io/badge/Donate%20$-Buy%20me%20a%20coffee-darkkhaki?labelColor=gray&style=flat" alt="Donate" /></a>
   <a href="https://github.com/bilalabdulhadii"><img src="https://img.shields.io/badge/Coding-Work%20Together-cornflowerblue?labelColor=gray&style=flat" alt="Coding" /></a>
 </p>
 
 <p align="center">
-  <a href="#introduction">Introduction</a> •
   <a href="#features">Features</a> •
-  <a href="#technologies-used">Technologies</a> •
-  <a href="#how-to-run">How to Run</a> •
-  <a href="#email-me">Email Me</a> •
-  <a href="#about-me">About Me</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#project-structure">Project Structure</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#notes">Notes</a> •
   <a href="#support">Support</a>
 </p>
 
 ---
 
-## Introduction
-
-This Todo List app was created to explore the power of React's hooks, state management with `useReducer`, and localStorage. It's lightweight, fast, and focuses on productivity without distractions.
-
----
-
 ## Features
 
-- Add new tasks with titles and optional descriptions  
-- Mark tasks as completed or not completed  
-- Update existing tasks  
-- Delete tasks with confirmation dialog  
-- Filter tasks by **All**, **Active**, or **Completed**  
-- Toggle **dark/light theme**  
-- Persist data with `localStorage`  
-- Toast messages for user feedback  
-- Fully responsive design
+- Add tasks with a title (description can be added later)
+- Update task title and description
+- Delete tasks with a confirmation dialog
+- Mark tasks completed or active
+- Filter by All, Active, or Completed
+- Light and dark theme toggle
+- Toast notifications for key actions
+- Persistent storage via `localStorage`
+- Responsive layout and accessible MUI components
 
 ---
 
 ## Tech Stack
 
-- **React**
-- **Material UI (MUI)**
-- **Context API + useReducer**
-- **LocalStorage**
-- **Create React App** (adjust based on your setup)
+- React 19
+- Material UI (MUI) + Emotion
+- Context API + `useReducer`
+- `localStorage` persistence
+- Create React App (`react-scripts`)
 
 ---
 
-## Technologies Used
+## Project Structure
 
-<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/></a>
-<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
-<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
-<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
-<a><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" width="40" height="40"/></a>
+```
+src/
+  components/        UI building blocks (Navbar, TodoCard, dialogs, etc.)
+  contexts/          Toast + Todos context providers
+  reducers/          Todos reducer (add/update/delete/complete)
+  theme.js           Light/Dark MUI theme
+  App.js             App shell and providers
+public/
+  manifest.json      PWA metadata
+```
 
 ---
 
-## Email me
+## Getting Started
 
-If you liked using this project, or it has helped you in any way, I'd like you email me at <b><a href="bilalabdulhadi88@gmail.com">bilalabdulhadi88@gmail.com</a></b> about anything you'd want to say about this software. I'd really appreciate it!
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm start
+
+# Run tests
+npm test
+
+# Build for production
+npm run build
+```
 
 ---
-## About me
 
-#Crafting Unique Digital Experiences.
+## Notes
 
-#Let's keep it simple and effective.
+- Todos are stored in `localStorage` under the `todos` key.
+- Theme preference is stored in `localStorage` under the `theme` key.
+- The app seeds a default welcome task on first load.
 
 ---
 
 ## Support
 
-<p><a href="https://www.buymeacoffee.com/bilalabdulhadii"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="https://www.buymeacoffee.com/bilalabdulhadii" /></a></p><br><br>
-
----
-> WebSite [@bilalabdulhadi.com](https://bilalabdulhadi.com/) &nbsp;&middot;&nbsp;
-> GitHub [@bilalabdulhadii](https://github.com/bilalabdulhadii) &nbsp;&middot;&nbsp;
-> Linkedin [@bilalabdulhadii](https://www.linkedin.com/in/bilalabdulhadii/)
-
+<p><a href="https://www.buymeacoffee.com/bilalabdulhadii"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee" /></a></p><br><br>
 
 ---
 
-## How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/bilalabdulhadii/react-todo-list.git
-
-# Navigate to the project directory
-cd react-todo-list
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm start
+WebSite [@bilalabdulhadi.com](https://bilalabdulhadi.com/) · GitHub [@bilalabdulhadii](https://github.com/bilalabdulhadii) · Linkedin [@bilalabdulhadii](https://www.linkedin.com/in/bilalabdulhadii/)

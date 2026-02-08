@@ -1,7 +1,8 @@
 import { useTheme } from "@emotion/react";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
-import Logo from "../assets/logo.png";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import Logo from "../assets/logo_white.png";
 import {
     AppBar,
     Toolbar,
@@ -13,6 +14,7 @@ import {
 
 export default function Navbar({ setThemeMode }) {
     const theme = useTheme();
+
     return (
         <Box
             sx={{
@@ -21,15 +23,13 @@ export default function Navbar({ setThemeMode }) {
                 top: "0",
                 zIndex: "1000",
                 paddingTop: "20px",
-            }}
-        >
+            }}>
             <AppBar
                 position="static"
                 sx={{
                     borderRadius: "20px",
                     backgroundColor: (theme) => theme.palette.primary.main,
-                }}
-            >
+                }}>
                 <Toolbar>
                     <Box
                         sx={{
@@ -37,8 +37,7 @@ export default function Navbar({ setThemeMode }) {
                             alignItems: "center",
                             cursor: "pointer",
                         }}
-                        onClick={() => window.location.reload()}
-                    >
+                        onClick={() => window.location.reload()}>
                         <Avatar
                             alt="Logo"
                             src={Logo}
@@ -52,8 +51,7 @@ export default function Navbar({ setThemeMode }) {
                                 marginLeft: "5px",
                                 fontFamily: "serif",
                                 fontSize: "1.5em",
-                            }}
-                        >
+                            }}>
                             TODO LIST
                         </Typography>
                     </Box>
@@ -61,12 +59,34 @@ export default function Navbar({ setThemeMode }) {
                     <Box>
                         <IconButton
                             size="large"
-                            aria-label="show 17 new notifications"
-                            color="secondary"
+                            aria-label="view github repository"
+                            component="a"
+                            href="https://github.com/bilalabdulhadii/react-todo-list"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{
+                                color: "#fff",
+                                mr: 1,
+                                "&:hover": {
+                                    backgroundColor:
+                                        "rgba(255, 255, 255, 0.22)",
+                                },
+                            }}>
+                            <GitHubIcon />
+                        </IconButton>
+                        <IconButton
+                            size="large"
+                            aria-label="toggle theme"
                             onClick={() =>
                                 setThemeMode(theme.palette.mode !== "dark")
                             }
-                        >
+                            sx={{
+                                color: "#fff",
+                                "&:hover": {
+                                    backgroundColor:
+                                        "rgba(255, 255, 255, 0.22)",
+                                },
+                            }}>
                             {theme.palette.mode === "light" ? (
                                 <DarkModeIcon />
                             ) : (
